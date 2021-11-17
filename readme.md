@@ -1,6 +1,5 @@
 # Graph Representation Learning
 
-
 ### 一、图数据结构
 很多数据都是图结构，例如社交网络、经济网络、生物医学网络、信息网络（互联网网站、学术引用）、互联网、神经网络。而网络是它们的通用语言，因此具备极大的研究价值。
 <img src='https://upload-images.jianshu.io/upload_images/8194602-e53724dc08cd2bd5.png?imageMogr2/auto-orient/strip|imageView2/2/w/1068' width = '800'>
@@ -27,7 +26,7 @@ e.g.，drug-drug network，drug-disease network，protein-protein network, elect
 
 |   Model   | Paper   | Note     |Source Code |Train Script |
 | :-------: | :------------ | :------------: | :-----------------: |:-----------------: |
-| DeepWalk  | [KDD 2014][DeepWalk: Online Learning of Social Representations](http://www.perozzi.net/publications/14_kdd_deepwalk.pdf)   | [DeepWalk：学习笔记](./Deepwalk.ipynb)  | [deepwalk.py](./code/deepwalk.py) | [run_deepwalk.py](./code/run_deepwalk.py) |
+| DeepWalk  | [KDD 2014][DeepWalk: Online Learning of Social Representations](http://www.perozzi.net/publications/14_kdd_deepwalk.pdf)   | [DeepWalk：学习笔记](./DeepWalk.ipynb)  | [deepwalk.py](./code/deepwalk.py) | [run_deepwalk.py](./code/run_deepwalk.py) |
 |   LINE    | [WWW 2015][LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf)                          | [LINE：学习笔记](./LINE.ipynb)      | [line.py](./code/line.py) |[run_line.py](./code/run_line.py) |
 | Node2Vec  | [KDD 2016][node2vec: Scalable Feature Learning for Networks](https://www.kdd.org/kdd2016/papers/files/rfp0218-groverA.pdf) | [Node2Vec：学习笔记](./Node2Vec.ipynb)  | [node2vec.py](./code/node2vec.py)| [run_node2vec.py](./code/run_node2vec.py) |
 |   SDNE    | [KDD 2016][Structural Deep Network Embedding](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)               |  | |
