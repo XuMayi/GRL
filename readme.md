@@ -47,7 +47,7 @@ e.g.，drug-drug network，drug-disease network，protein-protein network, elect
 | GAT  | [ICLR 2018][Graph Attention Networks](https://arxiv.org/pdf/1710.10903.pdf) | | | |
 
 
-### 四、一些高效的工具包
+### 四、一些高效的图表示学习工具包
 1、[PyG](https://github.com/pyg-team/pytorch_geometric#installation) 
 
 <img src="https://raw.githubusercontent.com/pyg-team/pytorch_geometric/master/docs/source/_static/img/pyg1.svg?sanitize=true" width="200">
