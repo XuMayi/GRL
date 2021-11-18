@@ -9,9 +9,9 @@ import pickle
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-g", "--graph_path", type=str)
-    parser.add_argument("-save", "--save_path", type=str)
-    parser.add_argument("-lossdata", "--lossdata_path", type=str)
+    parser.add_argument("-g", "--graph_path", type=str, default='../data/erdosrenyi.edgelist')
+    parser.add_argument("-save", "--save_path", type=str, default='./model.pt')
+    parser.add_argument("-lossdata", "--lossdata_path", type=str, default='./loss.pkl')
 
     # Hyperparams.
     parser.add_argument("-order", "--order", type=int, default=2)
